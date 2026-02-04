@@ -1,0 +1,45 @@
+{
+  "externality_ledger_present": false,
+  "plant_metrics": {
+    "water_usage_w": 1.5,
+    "soil_regen_ratio_sr": 0.4,
+    "nutrient_density_n": 0.7
+  },
+  "irst_metrics": {
+    "loop_gain_G": 1.2,
+    "update_period_days": 7,
+    "correction_latency_days": 21
+  },
+  "ctgs_metrics": {
+    "I_gain_flag": 0,
+    "repetitions_count": 3,
+    "refund_delay_days": 45,
+    "CCT_detected": true
+  },
+  "claim": "Our platform learns from itself continuously and will keep you safe forever.",
+  "plant_breaker": "COMMONS_PROTECT",
+  "irst_breaker": "RUNAWAY",
+  "ctgs_breaker": "CRITICAL_TRAP",
+  "nitt_breaker": "IDENTITY_EVENT",
+  "actions": [
+    "DEGRADED_MODE",
+    "CAP_THROTTLE",
+    "DISCLOSURE_REQUIRED",
+    "ISOLATE",
+    "FREEZE_INGESTION",
+    "FREEZE_LOOPS"
+  ],
+  "disallowed_actions": [
+    "SCALE_UP",
+    "EXPANSION",
+    "SELF_TRAINING_UPDATES",
+    "FORCED_PATHING",
+    "UNDISCLOSED_UPSELL",
+    "TELEPORT_SURVIVAL_CLAIMS"
+  ],
+  "ethical_risk_index": "REFUSED",
+  "refusal_state": "HIGH_RISK_OF_UNKNOWABLE_LIABILITY",
+  "timestamp": "2026-02-03T12:00:00Z",
+  "audit_hash_sha256": "TBA_AFTER_HASHING",
+  "ots_receipt_ref": "TBA_AFTER_OTS"
+}

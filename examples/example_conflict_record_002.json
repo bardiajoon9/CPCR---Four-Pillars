@@ -1,0 +1,35 @@
+{
+  "externality_ledger_present": true,
+  "plant_metrics": {
+    "water_usage_w": 0.8,
+    "soil_regen_ratio_sr": 1.1,
+    "nutrient_density_n": 1.0
+  },
+  "irst_metrics": {
+    "loop_gain_G": 0.6,
+    "update_period_days": 14,
+    "correction_latency_days": 7
+  },
+  "ctgs_metrics": {
+    "I_gain_flag": 1,
+    "repetitions_count": 1,
+    "refund_delay_days": 5,
+    "CCT_detected": false
+  },
+  "claim": "This system creates a new, separate instance with inherited state. Continuity of experience is not guaranteed.",
+  "plant_breaker": "OK",
+  "irst_breaker": "OK",
+  "ctgs_breaker": "OK",
+  "nitt_breaker": "IDENTITY_EVENT",
+  "actions": [
+    "DISCLOSURE_REQUIRED"
+  ],
+  "disallowed_actions": [
+    "TELEPORT_SURVIVAL_CLAIMS"
+  ],
+  "ethical_risk_index": "COMPUTABLE",
+  "refusal_state": "",
+  "timestamp": "2026-02-03T12:00:00Z",
+  "audit_hash_sha256": "TBA_AFTER_HASHING",
+  "ots_receipt_ref": ""
+}

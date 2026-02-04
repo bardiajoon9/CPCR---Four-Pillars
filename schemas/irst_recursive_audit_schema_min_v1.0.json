@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IRST Recursive Audit Summary (Minimal)",
+  "type": "object",
+  "properties": {
+    "loop_gain_G": { "type": "number" },
+    "update_period_days": { "type": "integer", "minimum": 0 },
+    "correction_latency_days": { "type": "integer", "minimum": 0 },
+    "breaker_state": {
+      "type": "string",
+      "enum": [
+        "OK",
+        "RUNAWAY",
+        "AUDIT_LOCK"
+      ]
+    },
+    "notes": { "type": "string" }
+  },
+  "required": [
+    "loop_gain_G",
+    "update_period_days",
+    "correction_latency_days"
+  ],
+  "additionalProperties": false
+}

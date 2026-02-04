@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CTGS Trap Pattern (Minimal)",
+  "type": "object",
+  "properties": {
+    "I_gain_flag": { "type": "integer" },
+    "repetitions_count": { "type": "integer", "minimum": 0 },
+    "refund_delay_days": { "type": "integer", "minimum": 0 },
+    "CCT_detected": { "type": "boolean" },
+    "breaker_state": {
+      "type": "string",
+      "enum": [
+        "OK",
+        "TRAP_DETECTED",
+        "CRITICAL_TRAP"
+      ]
+    },
+    "notes": { "type": "string" }
+  },
+  "required": [
+    "I_gain_flag",
+    "repetitions_count"
+  ],
+  "additionalProperties": false
+}

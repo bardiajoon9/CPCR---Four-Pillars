@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ethical Risk Record (Minimal)",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "COMPUTABLE",
+        "UNDETERMINED",
+        "REFUSED",
+        "DEGRADED"
+      ]
+    },
+    "refusal_state": { "type": "string" },
+    "explanatory_notes": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" }
+  },
+  "required": [
+    "status"
+  ],
+  "additionalProperties": false
+}
