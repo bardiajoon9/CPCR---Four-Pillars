@@ -83,7 +83,6 @@ Directories:
 - `ots-receipts/`
   - placeholder directory for `.ots` timestamp receipts (e.g., `CPCR_v1.0_hash_batch.txt.ots`)
 
-When you import this into GitHub, you may also add your standard `LICENSE` file at the repo root (see License section below).
 
 ---
 
@@ -169,19 +168,15 @@ See `BOUNDARIES_Public_vs_Private_v1.0.md` for a concise statement of what belon
 
 ## 9. Hashes and notarization
 
-Canonical CPCR text for v1.0 includes at minimum:
+For CPCR v1.0, integrity is recorded as follows:
 
-- `CPCR_Spec_v1.0.md`
-- `NITT_Branch_Rights_Disclosure_v1.0.md`
+- `CPCR_Spec_v1.0.md` and `NITT_Branch_Rights_Disclosure_v1.0.md` are treated as canonical text.
+- SHA-256 hashes for these files are recorded in `HASHES.md` as a dated hash batch.
+- The same batch is stored in `CPCR_v1.0_hash_batch.txt` and timestamped via OpenTimestamps.
+- The corresponding `.ots` receipt is stored under `ots-receipts/CPCR_v1.0_hash_batch.txt.ots`.
 
-You may:
+These mechanisms allow independent verification that the canonical CPCR text has not been altered since the recorded timestamp.
 
-- compute SHA-256 hashes for canonical files
-- record them in `HASHES.md` under a new “hash batch`
-- optionally timestamp the batch file (e.g., a `CPCR_v1.0_hash_batch.txt`) via OpenTimestamps
-- store `.ots` receipts under `ots-receipts/`
-
-This pack ships `HASHES.md` as a template only; you will fill in real values **after** you finalize the text in your working copy.
 
 ---
 
