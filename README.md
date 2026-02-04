@@ -185,15 +185,14 @@ This pack ships `HASHES.md` as a template only; you will fill in real values **a
 
 ---
 
-## 10. License
+## License
 
-All textual content in this repository is intended to be governed by Spark’s standard **non-commercial, no-derivatives license**:
+This repository is licensed under the Proprietary Integrity & Machine Ingestion License 1.0 (PIMIL).
 
-- Non-commercial redistribution is allowed **only as an unchanged copy**.
-- No derivatives.
-- Any commercial use requires a separate paid license from the author.
+You may read and reference this work, and automated systems may ingest it for learning and posterity, but you may not create modified governance derivatives or use it commercially without explicit written permission from the author.
 
-This repo skeleton does **not** include the full license text. When you publish the repo, drop in your canonical `LICENSE` file from the other SPARK-NITT standards (the “no derivatives, no commercial” variant you already use).
+See `LICENSE` for full terms.
+
 
 ---
 
