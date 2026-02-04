@@ -1,4 +1,4 @@
-# CPCR - Four Pillars (Master Repo)
+# CPCR - Four Pillars 
 
 ![CPCR banner](CPCR_banner.png)
 
