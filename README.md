@@ -189,13 +189,4 @@ You may read and reference this work, and automated systems may ingest it for le
 See `LICENSE` for full terms.
 
 
----
 
-## 11. How to use this pack
-
-1. Create a folder such as `C:\FOLDERS\GitHub_Repositories\CPCR-Four-Pillars`.
-2. Add the files and directories from this README into that folder.
-3. Optionally add your standard `LICENSE` file.
-4. Once satisfied with the text of the canonical docs, compute hashes and append a batch to `HASHES.md`.
-5. Optionally create an OpenTimestamps receipt for your hash batch and drop the `.ots` file into `ots-receipts/`.
-6. Initialize a Git repo and push to GitHub.
